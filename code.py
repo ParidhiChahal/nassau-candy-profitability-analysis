@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-fig, ax = plt.subplots()
-ax.scatter(df['Cost'], df['Sales'])
-st.pyplot(fig)
+
 st.scatter_chart(df[['Cost', 'Sales']])
 
 # Load Data
