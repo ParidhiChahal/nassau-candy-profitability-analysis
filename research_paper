@@ -1,0 +1,142 @@
+# Nassau Candy Distributor: Profitability and Cost Efficiency Analysis
+
+## Abstract
+
+In highly competitive distribution environments, revenue alone is an insufficient measure of business success. This study analyzes the profitability dynamics of Nassau Candy Distributor by evaluating product-level and division-level performance using key financial metrics such as gross margin, profit per unit, and contribution ratios. The objective is to identify true profit drivers, uncover cost inefficiencies, and support data-driven decision-making. Using exploratory data analysis and visualization techniques, this research highlights the imbalance between sales and profitability and proposes actionable recommendations for optimizing pricing, sourcing, and product portfolio strategies.
+
+
+## 1. Introduction
+
+Traditional performance evaluation in distribution businesses often emphasizes sales volume. However, high sales do not necessarily translate into high profitability due to varying cost structures and operational inefficiencies. Nassau Candy Distributor faces similar challenges, where certain products generate high revenue but contribute minimally to profit.
+
+This study aims to shift the focus from revenue-centric analysis to profitability-driven insights. By leveraging transactional data, the research evaluates how different products and divisions contribute to overall financial performance.
+
+
+## 2. Problem Statement
+
+The organization lacks clear visibility into:
+
+* Product-level profitability and margin performance
+* The relationship between high sales and actual profit generation
+* Division-wise financial efficiency
+* Identification of margin-risk and cost-heavy products
+
+This limitation results in reactive decision-making and reduces the effectiveness of pricing and portfolio strategies.
+
+
+## 3. Objectives
+
+* To calculate and analyze key profitability metrics
+* To identify high-performing and underperforming products
+* To evaluate division-level efficiency
+* To detect cost inefficiencies and margin risks
+* To provide actionable business recommendations
+
+
+## 4. Dataset Description
+
+The dataset includes transactional records with the following attributes:
+
+* Order details: Order ID, Order Date, Ship Date, Ship Mode
+* Customer details: Customer ID, Region, City, State
+* Product details: Product ID, Product Name, Division
+* Financial metrics: Sales, Units, Cost, Gross Profit
+
+Additionally, product-to-factory mapping and factory coordinates are included for extended analysis.
+
+
+## 5. Methodology
+
+### 5.1 Data Cleaning and Validation
+
+* Removed records with zero or invalid sales values
+* Handled missing unit values
+* Validated cost and profit consistency
+* Standardized categorical fields
+
+### 5.2 KPI Calculation
+
+* Gross Margin (%) = Gross Profit / Sales
+* Profit per Unit = Gross Profit / Units
+* Revenue Contribution = Product Sales / Total Sales
+* Profit Contribution = Product Profit / Total Profit
+
+### 5.3 Product-Level Analysis
+
+Products were ranked based on gross profit and margin to identify:
+
+* High-profit, high-margin products
+* High-sales but low-margin products
+* Low-performing products
+
+### 5.4 Division-Level Analysis
+
+Aggregated metrics were analyzed to compare revenue and profitability across divisions, identifying structural inefficiencies.
+
+### 5.5 Pareto Analysis
+
+The 80/20 rule was applied to determine the concentration of profit and revenue among products.
+
+### 5.6 Cost Diagnostics
+
+Cost vs sales relationships were analyzed to identify:
+
+* Cost-heavy products
+* Pricing inefficiencies
+* Margin risk segments
+
+
+## 6. Results and Findings
+
+### 6.1 Product Insights
+
+* A small percentage of products contributed to the majority of profits
+* Several high-sales products exhibited low margins
+* Certain products showed strong margin potential but low sales volume
+
+### 6.2 Division Insights
+
+* Revenue and profit contributions varied significantly across divisions
+* Some divisions generated high revenue but lower profitability
+
+### 6.3 Cost Efficiency
+
+* Identified products with disproportionately high costs
+* Highlighted inefficiencies in pricing and sourcing
+
+### 6.4 Profit Concentration
+
+* Profit distribution followed a Pareto pattern
+* Over-dependency on a limited set of products was observed
+
+
+## 7. Discussion
+
+The analysis reveals that relying solely on revenue as a performance metric can be misleading. Products with high sales but low margins dilute overall profitability. Conversely, high-margin products present opportunities for growth through targeted marketing and scaling.
+
+Division-level imbalances suggest the need for strategic realignment, while cost diagnostics emphasize the importance of efficient sourcing and pricing strategies.
+
+
+## 8. Recommendations
+
+* Implement dynamic pricing strategies
+* Optimize cost structures through supplier negotiations
+* Focus on high-margin product promotion
+* Discontinue or redesign low-performing products
+* Diversify product portfolio to reduce dependency risks  
+
+## 9. Conclusion
+
+This research provides a data-driven framework for understanding profitability in distribution operations. By integrating financial metrics with analytical techniques, the study enables Nassau Candy Distributor to make informed strategic decisions. The findings emphasize the importance of profitability-focused analysis in achieving sustainable business growth.
+
+
+## 10. Future Work
+
+* Integration of predictive analytics for demand forecasting
+* Real-time dashboard deployment
+* Supply chain and logistics optimization analysis
+
+
+## Keywords
+
+Profitability Analysis, Gross Margin, Cost Efficiency, Pareto Analysis, Data Analytics, Streamlit Dashboard
