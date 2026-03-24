@@ -62,12 +62,8 @@ st.bar_chart(division_perf.set_index('Division')[['Sales', 'Gross Profit']])
 # Cost vs Sales Scatter
 # -------------------------------
 st.header("Cost vs Sales Analysis")
-
-fig, ax = plt.subplots()
-ax.scatter(df['Cost'], df['Sales'])
-ax.set_xlabel("Cost")
-ax.set_ylabel("Sales")
-st.pyplot(fig)
+st.subheader("Cost vs Sales Analysis")
+st.scatter_chart(df[['Cost', 'Sales']])
 
 # -------------------------------
 # Pareto Analysis
